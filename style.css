@@ -1,0 +1,41 @@
+/*
+	* Twitter One Click Block 2.1
+	* Date    : June 2020
+	* Author  : A7med
+	* Email   : A7med.me at gmail.com
+	* Website : http://www.A7med.me
+*/
+
+ .link:link, .link:visited {
+    color: #ffffff;
+    text-decoration:none;
+}
+ .link:hover, .link:active {
+    color: #ffffff;
+    text-decoration:underline;
+}
+
+ .error-message {
+     position: fixed;
+     color: #ffffff;
+     background-color: #E0245E;
+     border-color: #E0245E;
+     top:0;
+     right:0;
+     width: 100%;
+     z-index: 9999;
+     text-align: center;
+     vertical-align: middle;
+     direction:ltr;
+}
+ .msg {
+     padding: 8px 0px 8px 0px;
+     margin-bottom: 18px;
+     color: #ffffff;
+     background-color: #E0245E;
+     -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+     border-radius: 4px;
+     text-align: center;
+     vertical-align: middle;
+}
