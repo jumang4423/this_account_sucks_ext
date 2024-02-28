@@ -1,7 +1,7 @@
 {
-"name": "Twitter One Click Block",
-"author": "A7med.me",
-"homepage_url": "http://A7med.me/",
+"name": "this_account_sucks",
+"author": "jumango",
+"homepage_url": "https://jumango.dev",
 "description": "Add a block button for a simple one click blocking.",
 "version": "2.4",
 "content_scripts": [{
@@ -15,7 +15,7 @@
 "19": "icons/19.png",
 "38": "icons/38.png"
 },
-"default_title": "Twitter One Click Block",
+"default_title": "this_account_sucks",
 "default_popup": "popup.html"
 },
 "web_accessible_resources": [ "hakai.mp4" ],

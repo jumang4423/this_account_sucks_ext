@@ -112,10 +112,9 @@ $(document).on('click', '.blockicon', function(event) {
 
                 var hakai = $('<div id="hakai">');
 
-var videoCSS = 'position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 9900; width: 90%; height: 90%; object-fit: cover;';
-var blockedTextCSS = 'position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 256px; color: black; background: linear-gradient(45deg, red, orange, yellow, green, blue, purple); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; z-index: 9999;';
-hakai.append('<video autoplay loop muted style="' + videoCSS + '"> <source src="' + hakai_mp4 + '" type="video/mp4"> </video>');
-hakai.append('<div style="' + blockedTextCSS + '">Blocked</div>');
+var videoCSS = 'position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 9900; width: 80%; height: 80%; object-fit: cover;';
+// var blockedTextCSS = 'position: fixed; top: 51%; left: 50%; transform: translate(-50%, -50%); font-size: 256px; color: black; background: linear-gradient(45deg, red, orange, yellow, green, blue, purple); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; z-index: 9999;';
+hakai.append('<video autoplay style="' + videoCSS + '"> <source src="' + hakai_mp4 + '" type="video/mp4" controls autoplay> </video>');
 hakai.appendTo($('body')).fadeIn(300).delay(1000).fadeOut(500);
 
                 if (screen_name) {
